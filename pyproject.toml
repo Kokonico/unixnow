@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "unixnow"
+version = "1.0.0"
+description = "A package to get the current time in Unix format"
+authors = ["Kokonico <kokonico@me.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+
+[tool.pyright]
+# https://github.com/microsoft/pyright/blob/main/docs/configuration.md
+useLibraryCodeForTypes = true
+exclude = [".cache"]
+
+[tool.ruff]
+# https://beta.ruff.rs/docs/configuration/
+select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
+ignore = ['W291', 'W292', 'W293']
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

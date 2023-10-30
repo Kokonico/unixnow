@@ -1,0 +1,7 @@
+main.py
+.upm
+.replit
+replit.nix
+.DS_store
+.breakpoints
+poetry.lock
