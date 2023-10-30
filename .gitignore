@@ -5,3 +5,4 @@ replit.nix
 .DS_store
 .breakpoints
 poetry.lock
+dist
